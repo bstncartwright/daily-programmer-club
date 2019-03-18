@@ -1,6 +1,4 @@
 def num_jewels_and_stones(J: str, S: str) -> int:
-    # j - ones to search for
-    # s - ones we have
     mirror = []
     for i in J:
         if i not in mirror:
