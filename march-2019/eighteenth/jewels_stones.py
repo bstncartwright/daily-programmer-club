@@ -10,3 +10,5 @@ def num_jewels_and_stones(J: str, S: str) -> int:
             if letter == other_letter:
                 count += 1
     return count
+
+# Jonathan is learning about Git! :)
